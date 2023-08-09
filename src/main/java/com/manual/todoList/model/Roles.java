@@ -1,5 +1,10 @@
 package com.manual.todolist.model;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+
+@Builder
+@AllArgsConstructor
 public class Roles extends RolesKey {
     /**
      *
