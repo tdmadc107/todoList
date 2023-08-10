@@ -10,4 +10,10 @@ public class AuthController {
     public String homepage() {
         return "index";
     }
+
+    // handler method to handle login request
+    @GetMapping("/login")
+    public String login() {
+        return "login";
+    }
 }

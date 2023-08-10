@@ -45,7 +45,7 @@
         <table tableName="users_sys" modelType="hierarchical">
             <property name="useActualColumnNames" value="false"/>
         </table>
-        <table tableName="roles" modelType="hierarchical">
+        <table tableName="login_history" modelType="hierarchical">
             <property name="useActualColumnNames" value="false"/>
         </table>
         <table tableName="roles_users" modelType="hierarchical">
